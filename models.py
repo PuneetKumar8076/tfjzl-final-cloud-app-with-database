@@ -37,5 +37,5 @@ def __str__(self):
 ```
 
 class Submission(models.Model):
-question = models.ForeignKey(Question, on_delete=models.CASCADE)
-choice = models.ForeignKey(Choice, on_delete=models.CASCADE)
+    enrollment = models.ForeignKey(Enrollment, on_delete=models.CASCADE)
+    choices = models.ManyToManyField(Choice)
