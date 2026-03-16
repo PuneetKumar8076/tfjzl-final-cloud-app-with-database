@@ -1,4 +1,4 @@
-# OnlineCourse
+# onlinecourse
 
 This project is a Django-based Online Course web application created as part of a Coursera assignment.
 
